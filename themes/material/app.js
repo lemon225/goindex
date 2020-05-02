@@ -78,7 +78,12 @@ function list(path){
 	    <div class="mdui-col-sm-2 mdui-text-right">
 	     大小
 	<i class="mdui-icon material-icons icon-sort" data-sort="size" data-order="downward">expand_more</i>
-	    </div> 
+	    </div>
+	    <div class="mdui-textfield">
+		<label class="mdui-textfield-label">下载</label>
+		<input class="mdui-textfield-input" type="text" value="${href}"/>
+	     </div>
+
 	    </li> 
 	  </ul> 
 	 </div> 
